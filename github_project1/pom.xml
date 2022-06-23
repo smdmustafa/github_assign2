@@ -18,4 +18,16 @@
   <build>
     <finalName>github_project1</finalName>
   </build>
+  <distributionManagement>
+  <repository>
+  <id>nexus-site</id>
+  <name>demo-release</name>
+  <url>http://52.170.22.67:8081/repository/demo-release/</url>
+  </repository>
+  <snapshotRepository>
+  <id>nexus-site</id>
+  <name>demo-snapshot</name>
+  <url>http://52.170.22.67:8081/repository/demo-snapshot/</url>
+  </snapshotRepository>
+  </distributionManagement>
 </project>
